@@ -18,7 +18,7 @@ This simple module allows you to treat a string as a comma-delimited array using
   result = jsArray(pretendArray, 'reverse'); // "3,blue,6,hey,2,1"
 ```
 
-I built this for myself for use in a Business Intelligence software called Qlikview which does not allow for arrays in its core 
+I built this for use in a Business Intelligence software called Qlikview which does not allow for arrays in its core 
 language but allows modules to be built using Javascript. 
 I wrote a post about its uses in Qlikview here: https://community.qlik.com/message/759602#759602
 
