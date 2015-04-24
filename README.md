@@ -2,6 +2,7 @@
 
 This simple module allows you to treat a string as a comma-delimited array using Javascript with its jsArray function.
 
+```
   var pretendArray = '1,2,hey,6,blue,3';
   var argumentsExample = '1,4,imAdded,meToo';
   var result = '';
@@ -15,6 +16,7 @@ This simple module allows you to treat a string as a comma-delimited array using
   result = jsArray(pretendArray, 'pop'); // "1,2,hey,6,blue"
   result = jsArray(pretendArray, 'sort'); // "1,2,3,6,blue,hey"
   result = jsArray(pretendArray, 'reverse'); // "3,blue,6,hey,2,1"
+```
 
 I built this for myself for use in a Business Intelligence software called Qlikview which does not allow for arrays in its core 
 language but allows modules to be built using Javascript. 
